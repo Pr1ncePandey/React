@@ -1,7 +1,9 @@
 import React from "react";
 import "./index.css";
-import Home from "./Home.jsx";
 import Header from "./Header.jsx";
+import Home from "./Home.jsx";
+import About from "./About.jsx";
+
 
 const siteProps = {
   name: "Prince Pandey",
@@ -21,10 +23,11 @@ const secondaryColor = "#D2F1E4";
 function App() {
   return (
     <div id="main">
-      <Header></Header>
-      <Home  name={siteProps.name} title={siteProps.title}></Home>
-    </div>
-  )
-}
+      <Header />
+      <Home name={siteProps.name} title={siteProps.title} />
+      <About />
+      </div>
+  );
+};
 
 export default App;
