@@ -1,7 +1,7 @@
 import React from "react";
 import image from "./assets/design-desk.jpeg";
 
-const imageAltText = "Portfolio Background";
+const imageAltText = "Project Background";
 
 const projectList = [
     {
@@ -39,7 +39,7 @@ const projectList = [
   const Portfolio = () => {
     return (
       <section className="padding" id="portfolio">
-        <h2 style={{ textAlign: "center" }}>Portfolio</h2>
+        <h2 style={{ textAlign: "center" }}>Projects</h2>
         <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
           <div style={{ maxWidth: "40%", alignSelf: "center" }}>
             <img
