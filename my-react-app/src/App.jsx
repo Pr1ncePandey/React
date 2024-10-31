@@ -3,6 +3,7 @@ import "./index.css";
 import Header from "./Header.jsx";
 import Home from "./Home.jsx";
 import About from "./About.jsx";
+import Portfolio from "./Portfolio.jsx";
 
 
 const siteProps = {
@@ -26,6 +27,7 @@ function App() {
       <Header />
       <Home name={siteProps.name} title={siteProps.title} />
       <About />
+      <Portfolio />
       </div>
   );
 };
