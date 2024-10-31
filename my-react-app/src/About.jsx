@@ -3,7 +3,7 @@ import image from "./assets/motion-background.jpg";
 
 const imageAltText = "About Background";
 
-const description = "";
+const description = "I specialize in crafting responsive and user-friendly web interfaces. My focus is on delivering clean, efficient code and intuitive user experiences. Always eager to learn and embrace new challenges to continuously improve my skill set.";
 
 const skillsList = [
     "HTML",
@@ -14,7 +14,7 @@ const skillsList = [
     "Git & GitHub"
 ];
 
-const detailOrQuote = "";
+const detailOrQuote = "A quote that resonates with me is by Steve Jobs: “Design is not just what it looks like and feels like. Design is how it works.”";
 
 const About = () => {
     return (

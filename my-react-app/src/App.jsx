@@ -4,6 +4,7 @@ import Header from "./Header.jsx";
 import Home from "./Home.jsx";
 import About from "./About.jsx";
 import Portfolio from "./Portfolio.jsx";
+import Footer from "./Footer.jsx";
 
 
 const siteProps = {
@@ -11,10 +12,10 @@ const siteProps = {
   title: "Frontend Developer",
   email: "princepandey4873@gmail.com",
   gitHub: "https://github.com/Pr1ncePandey/",
-  instagram: "microsoft",
-  linkedIn: "satyanadella",
+  instagram: "",
+  linkedIn: "https://www.linkedin.com/in/pr1nce-pandey/",
   medium: "",
-  twitter: "microsoft",
+  twitter: "https://x.com/Pr1ncePandey",
   youTube: "",
 };
 
@@ -28,6 +29,7 @@ function App() {
       <Home name={siteProps.name} title={siteProps.title} />
       <About />
       <Portfolio />
+      <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
       </div>
   );
 };
