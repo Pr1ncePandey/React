@@ -1,5 +1,5 @@
 import React from "react";
-import image from "./assets/design-desk.jpeg";
+import image from "./assets/coding.png";
 
 const imageAltText = "Project Background";
 
@@ -17,15 +17,9 @@ const projectList = [
       url: "https://pr1nce-signup-page.netlify.app/",
     },
     {
-      title: "BMI Calculator",
-      description:
-        "Developed a BMI calculator using HTML, CSS, and JavaScript to provide users with a tool for calculating their Body Mass Index. This project involved integrating interactive elements and ensuring a seamless user experience.",
-      url: "",
-    },
-    {
       title: "My Resume Site",
       description:
-        "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
+        "Created a sleek and responsive resume website using HTML and CSS. Hosted on GitHub Pages, this project showcases my web development skills, including layout design, styling, and responsive techniques.",
       url: "https://pr1ncepandey.github.io/Resume-Website/",
     },
     {

@@ -1,5 +1,5 @@
 import React from "react";
-import arrowSvg from "./assets/down-arrow.svg";
+import downArrow from "./assets/down-arrow.png";
 import PropTypes from "prop-types";
 import image from "./assets/img-3.jpg"
 
@@ -14,7 +14,7 @@ const Home = ({ name, title }) => {
         <h2>{title}</h2>
       </div>
       <div style={{ position: "absolute", bottom: "3rem", left: "50%" }}>
-        <img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />
+        <a href="#about"><img src={downArrow} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} /></a>
       </div>
     </section>
   );
